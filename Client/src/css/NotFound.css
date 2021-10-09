@@ -1,0 +1,32 @@
+.mainbox_404 {
+    background-color: #95c2de;
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    text-align: center;
+}
+  
+.err_404 {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    left: 20%;
+    bottom: 300px;
+}
+
+.msg_404 {
+    position: relative;
+    text-align: center;
+    font-size: 18pt;
+    top:-120px;
+}
+
+.notfound {
+text-decoration: none;
+color: white;
+}
+
+.notfound:hover {
+text-decoration: underline;
+}

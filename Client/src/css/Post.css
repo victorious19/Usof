@@ -1,0 +1,67 @@
+.post {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    margin-top: 50px;
+    flex: 1;
+ }
+ .post_title {
+     font-size:20pt;
+ }
+ .post_category {
+     font-size: 14pt;
+ }
+ .post_content {
+     display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+ }
+ .post_avatar {
+     height: 60px;
+     width: 60px;
+     border: 1px solid black;
+     border-radius: 50px;
+     margin-top: -5px;
+     margin-right: 10px;
+ } 
+.post_like_or_dislike {
+    font-size: 15pt;
+    float: right;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+.post_like_or_dislike p {
+    padding: 5px;
+}
+.post_rating {
+    display: inline-block;
+}
+
+.readmore {
+    margin-right: 10px;
+    float: right;
+    color: white;
+    background-color: #3498DB;
+    border: 1px solid #20638f;
+    font-size: 15pt;
+    cursor: pointer;
+}
+.post_like, .post_dislike {
+    position: absolute;
+    left: -100vw;
+}
+.post_like_or_dislike label{
+    color:transparent;
+    /*color: rgb(136, 108, 228);*/
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+}
+.post_like:checked + label,  .post_dislike:checked + label{
+    color: #e2264d;
+}
+.avatar_login_box {
+    display: flex;
+    margin-top: 40px;
+}

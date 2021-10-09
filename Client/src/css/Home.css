@@ -1,0 +1,39 @@
+.home {
+    margin-top: 150px;
+}
+@media screen and (max-width: 600px){
+    .home {
+        margin-top: 250px;
+    }
+}
+.posts_select {
+    font-size: 14pt;
+    margin-left: 4%;
+}
+.pagination_wrapper {
+    margin: 20px auto 50px auto;
+    /*width: 400px;*/
+    text-align: center;
+}
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item_pagination {
+    float: left;
+    border: 1px solid #1e47bf;
+    background-color: white;
+    padding: 8px 16px;
+    list-style-type: none;
+}
+.link_pagination {
+    text-decoration: none;
+    color: #1e47bf;
+}
+.active_page {
+    background-color: #1e47bf;
+}
+.active_link {
+    color: white;
+}
